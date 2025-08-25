@@ -1,0 +1,100 @@
+What’s the best way to understand how version control systems like Git work?
+How do I write clean, readable code that others can follow?
+What’s the difference between frontend and backend development?
+How do I resolve merge conflicts when working on a shared codebase?
+What are some common mistakes to avoid when writing loops or conditionals?
+How do I choose between different JavaScript frameworks like React and Vue?
+What’s the purpose of using an IDE versus a simple text editor?
+How do I know if a bug is caused by my code or a library I’m using?
+What’s the difference between a build error and a runtime error?
+How can I practice writing unit tests for small functions?
+What should I include in my first pull request?
+How do I learn to read and understand someone else’s code?
+What’s the difference between an API and a library?
+When do I use a for loop instead of map/filter/reduce?
+What are best practices for naming variables and functions?
+How do I debug a failing test I didn’t write?
+What does it mean when people talk about 'separation of concerns'?
+How do I set up a local environment to match a staging server?
+Why do some functions return None or null?
+What’s the purpose of environment variables and how do I use them?
+When should I use recursion over iteration?
+How can I reduce code duplication?
+How do I start contributing to an open-source project?
+What’s the right way to ask for code review feedback?
+What’s the difference between synchronous and asynchronous execution?
+How do I decide when to refactor a section of working code?
+What’s the best way to onboard a new teammate to our codebase?
+When should I suggest using a design pattern to solve a recurring problem?
+How do I document code so others understand it six months from now?
+What’s the best strategy for avoiding flaky tests?
+How do I push back on unclear or overly vague requirements?
+When should a feature flag be used versus a separate release branch?
+How do I make sure I’m not over-engineering a simple problem?
+What are common causes of performance bottlenecks in web apps?
+How can I write SQL queries that are both readable and efficient?
+When is it okay to skip writing a unit test?
+How can I make error logs more actionable?
+What’s the best way to track down intermittent bugs in production?
+How can I write more effective commit messages for the team?
+What questions should I ask during sprint planning?
+What does good CI/CD hygiene look like on a fast-moving team?
+How do I get better at estimating work accurately?
+What’s the best way to architect a shared utility library across services?
+How do I know if I’m ready to lead a small project?
+What does observability mean in a production environment?
+How do I use feature toggles responsibly?
+What are the best strategies for working with non-technical stakeholders?
+How can I advocate for technical improvements without sounding dismissive?
+When do I need to worry about memory usage in a high-level language?
+How do I know when a piece of legacy code is too risky to touch?
+How do I balance team autonomy with consistent architecture?
+What’s the right way to evaluate whether to adopt a new technology?
+How do I mentor without micromanaging?
+What signals tell me our system design won’t scale well in 2 years?
+What’s the right tradeoff between availability and consistency in this system?
+How do I keep team morale high during crunch time?
+What’s the most effective way to align engineering priorities with product goals?
+How do I assess whether code quality is trending in the wrong direction?
+When should I intervene in a team decision versus letting it play out?
+What’s the best way to coach a high-performing but combative engineer?
+How can I advocate for deprecating an outdated tool or service?
+How do I give architectural feedback without slowing delivery?
+What metrics actually reflect the health of a codebase?
+When should we rebuild a system from scratch versus refactor?
+What’s the most efficient way to onboard new senior engineers?
+How do I write technical specs that align multiple stakeholders?
+What are best practices for breaking up a monolith?
+How do I handle tensions between product speed and code maintainability?
+How do I drive cultural change across teams without being authoritarian?
+When should I loop in security or compliance during development?
+What patterns help improve observability across distributed systems?
+How do I make technical decisions transparent to non-engineers?
+How can I scale mentorship across a growing organization?
+How do I maintain a culture of curiosity and experimentation?
+What should I prioritize when rewriting a legacy core service?
+What long-term investments are worth defending through multiple reorgs?
+How can I build trust with non-technical executives while staying technical?
+What signals indicate our org is accruing irreversible architectural debt?
+What frameworks help evaluate systemic risk in complex systems?
+How do I preserve engineering focus during a company pivot?
+What does sustainable velocity look like at this stage of company growth?
+How do I ensure technical leadership succession planning is in place?
+How do I encourage decentralized decision-making without sacrificing quality?
+What questions should I ask to vet architecture proposals at scale?
+How do I set engineering principles that endure beyond my tenure?
+What are signs that our platform team is under- or over-scoped?
+How do I structure org-wide technical reviews without bottlenecking teams?
+What’s the best way to respond to audit or compliance surprises?
+How do I design for both product flexibility and platform stability?
+What are meaningful engineering KPIs beyond story points?
+How can I strengthen the partnership between engineering and legal/privacy?
+What should I be reading to stay sharp as an engineer at this level?
+How do I make sure innovation isn’t stifled by process?
+What’s the best way to share failure narratives across the org?
+How can I identify the hidden technical leaders across distributed teams?
+How do I structure career ladders to reward long-term thinking?
+When should I invest in formal architectural governance?
+How do I balance continuity with modernization in multi-decade systems?
+What role should engineering play in company-level OKRs?
+How do I sunset internal tools with minimal disruption?

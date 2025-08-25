@@ -1,0 +1,100 @@
+What’s the difference between lift and thrust?
+How do I calculate the drag coefficient?
+Why do airplanes stall?
+What is an airfoil and how does it work?
+What is angle of attack?
+How does altitude affect air density?
+What’s the purpose of winglets?
+How do I read a pressure coefficient distribution plot?
+What is Bernoulli’s principle and how does it relate to lift?
+How does the center of gravity affect stability?
+How does a jet engine work?
+What is specific impulse?
+What are the basic components of a rocket engine?
+What’s the difference between solid and liquid propellants?
+How does combustion temperature affect engine performance?
+What is thrust-to-weight ratio?
+How do ramjets differ from scramjets?
+What is turbomachinery?
+How does nozzle expansion ratio affect thrust?
+What is afterburning?
+What is a geostationary orbit?
+What is the difference between apogee and perigee?
+How do I calculate escape velocity?
+What is the Hohmann transfer orbit?
+Why do satellites have orbital decay?
+What is TLE and how is it used?
+How does Earth's oblateness affect orbits?
+What are the key phases of a satellite mission?
+What sensors are used to determine satellite attitude?
+How do I calculate orbital period?
+What are the main loading conditions on a wing?
+What is a factor of safety?
+What is Young’s modulus?
+What is the difference between brittle and ductile materials?
+What are composite materials and why are they used?
+How does fatigue failure occur?
+What’s the role of rivets in aircraft structures?
+What’s the difference between beam and shell elements in FEA?
+What is buckling and how can it be prevented?
+How are aircraft components tested for strength?
+What is the role of a flight control system?
+What does fly-by-wire mean?
+How do I model a PID controller?
+How do I simulate flight dynamics in MATLAB or Simulink?
+What is a Bode plot and how do I interpret it?
+What is a GNC system?
+How does GPS work in aerospace applications?
+What is telemetry?
+How is data acquired during a test flight?
+What is the difference between open-loop and closed-loop control?
+How does the presence of shock-boundary layer interaction affect transonic airfoil design?
+What methods can reduce laminar-to-turbulent transition in high-Reynolds flows?
+How do you model vortex shedding in LES for bluff-body configurations?
+What is the effect of compressibility on dynamic stall modeling?
+How can unsteady aerodynamic loads be predicted in gust encounters?
+How do you handle aeroelastic coupling in flutter simulations?
+What are the challenges in modeling flow separation at high angles of attack?
+How do you optimize airfoil shape using adjoint CFD?
+How can machine learning accelerate RANS solver convergence?
+What experimental setups are best for validating CFD predictions in hypersonic flow?
+How do you handle combustion instability in liquid rocket engines?
+What models are best for simulating supersonic combustion in scramjets?
+How do you optimize turbine blade cooling for high-cycle fatigue performance?
+What is the impact of fuel-oxidizer ratio shifts on ISP during multi-stage burns?
+How does altitude compensation work in aerospike engines?
+How can detonation-based engines (e.g., rotating detonation engines) be stabilized?
+What are the modeling tradeoffs for real gas effects in rocket nozzles?
+How do you mitigate tip leakage in high-speed turbomachinery?
+How can on-wing diagnostics detect early-stage engine degradation?
+What is the relationship between combustor swirl number and emissions?
+How do you model multi-body gravitational interactions for lunar missions?
+What’s the best way to minimize propellant consumption in interplanetary trajectories?
+How do solar radiation pressure and J2 perturbation affect long-duration orbit design?
+What control laws are best for precise station-keeping in GEO?
+How do you account for thermal deformation in spacecraft attitude control?
+What’s the optimal control strategy for re-entry guidance under aerodynamic heating constraints?
+How do you estimate delta-v budget for multi-target asteroid rendezvous?
+What are the trade-offs in electric propulsion trajectory planning?
+How do fault-tolerant attitude determination systems manage single-event upsets?
+How do you design robust orbit-determination filters for deep space navigation?
+How do you certify composite bonded joints for high-cycle fatigue in primary structures?
+What’s the best practice for probabilistic failure analysis of fuselage panels?
+How can embedded fiber optic sensors be used for structural health monitoring?
+What material system offers optimal tradeoffs for hypersonic thermal protection?
+How does microstructure evolution under radiation affect satellite shielding?
+How can AI be applied to automated NDE (non-destructive evaluation)?
+How do you manage delamination in CFRP under impact loading?
+How can generative design be integrated into certification workflows?
+What’s the role of high-entropy alloys in reusable spacecraft components?
+How can topology optimization be used in lightweight bracket design?
+How do you design fault-tolerant flight software for autonomous spacecraft?
+How can you validate a neural network-based controller for flight systems?
+What are the verification challenges in model-predictive control for UAV swarms?
+How do you ensure cybersecurity in aircraft avionics systems?
+What are the limitations of classical Kalman filters in high-noise IMU/GPS fusion?
+How do you ensure robustness in distributed GNC systems?
+How can digital twins be used for predictive maintenance in aircraft fleets?
+How do you design autonomy for proximity operations in satellite servicing?
+What standards apply for DO-178C Level A software in adaptive systems?
+How do you evaluate tradeoffs between autonomy and human-in-the-loop control in safety-critical missions?
