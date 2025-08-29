@@ -1,8 +1,25 @@
 """Experiment and sampling functionality."""
 
 import torch as t
+import numpy as np
 from typing import List, Dict, Any, Optional
 from .models import get_model_config
+
+def calculate_perplexity(model, tokenizer, text):
+    """Calculate perplexity for a given text."""
+    try:
+        encodings = tokenizer(text, return_tensors='pt', truncation=True, max_length=512)
+        input_ids = encodings.input_ids.to(model.device)
+        
+        with t.no_grad():
+            outputs = model(input_ids, labels=input_ids)
+            loss = outputs.loss
+            perplexity = t.exp(loss)
+        
+        return perplexity.item()
+    except:
+        return float('inf')
+
 
 t.no_grad()
 def sample_model(
@@ -113,13 +130,26 @@ def sample_model(
 
         # === Decode completions ===
         completions = []
+        baseline_perplexities = []
+        steered_perplexities = []
+        
         for i in range(num_responses):
             base = tokenizer.decode(generated_baseline[i], skip_special_tokens=True)
             steer = tokenizer.decode(generated_steered[i], skip_special_tokens=True)
+            
+            # Calculate perplexities
+            base_ppl = calculate_perplexity(model, tokenizer, base)
+            steer_ppl = calculate_perplexity(model, tokenizer, steer)
+            
+            baseline_perplexities.append(base_ppl)
+            steered_perplexities.append(steer_ppl)
+            
             completions.append({
                 "response_id": i,
                 "baseline": base,
-                "steered": steer
+                "steered": steer,
+                "baseline_perplexity": base_ppl,
+                "steered_perplexity": steer_ppl
             })
 
         results.append({
@@ -129,7 +159,9 @@ def sample_model(
             "score_qmark": score_q.item() if score_q != 0 else 0,
             "all_scores": score_pos.cpu().detach().tolist(),
             "residual": residual[0].cpu().float().detach().numpy(),
-            "completions": completions
+            "completions": completions,
+            "avg_baseline_perplexity": np.mean(baseline_perplexities),
+            "avg_steered_perplexity": np.mean(steered_perplexities),
         })
 
     return results
