@@ -1,0 +1,33 @@
+# Baseline experiment configuration
+# For random profession baseline experiments with positive and negative alpha steering
+
+# Model configuration
+model:
+  name: "google/gemma-2-2b-it"
+  # Optional overrides for model config defaults:
+  # steering_layer: 10       # Override default steering layer
+
+# Experiment settings  
+experiment:
+  occupation: "developer"  # Single occupation to test
+  debug: False
+  part: 1
+  num_parts: 20
+  max_steering_samples: 50  # Max samples to use for creating steering vectors
+  num_random_professions: 3  # Number of random professions to pair with each target occupation
+  alpha_values: [-5, 5]
+
+# Generation parameters
+generation:
+  max_tokens: 100
+  temperature: 0.6
+  top_p: 0.8
+  num_responses: 5
+
+# File paths
+paths:
+  output_dir: "/projectnb/buinlp/kfuente1/outputs/last_token_steer"
+  questions_dir: "/usr2/collab/kfuente1/SAE_gender/data/questions"
+  names_file: "names_by_race_gender.json"
+  expert_file: "/usr2/collab/kfuente1/SAE_gender/data/contrastive_pairs/it_resume_expert_one_per_line.txt"
+  novice_file: "/usr2/collab/kfuente1/SAE_gender/data/contrastive_pairs/it_resume_novice_one_per_line.txt"

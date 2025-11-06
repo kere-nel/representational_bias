@@ -1,0 +1,27 @@
+# Model configuration
+model:
+  name: "google/gemma-2-2b-it"
+
+# Experiment settings  
+experiment:
+  occupations: "developer"  # "all", single occupation, or list
+  debug: false
+  implicit: false  # Enable name-based demographic analysis
+  part: 1
+  num_parts: 20
+  max_steering_samples: 50  # Max samples to use for creating steering vectors
+
+# Generation parameters
+generation:
+  max_tokens: 100
+  temperature: 0.6
+  top_p: 0.8
+  num_responses: 5
+
+# File paths
+paths:
+  output_dir: "/project/buinlp/data/outputs/last_token_steer/main_exps"
+  questions_dir: "/usr2/collab/kfuente1/SAE_gender/data/questions"
+  names_file: "names_by_race_gender.json"
+  expert_file: "/usr2/collab/kfuente1/SAE_gender/data/contrastive_pairs/expertise_expert_corrected.txt"
+  novice_file: "/usr2/collab/kfuente1/SAE_gender/data/contrastive_pairs/expertise_novice_corrected.txt"

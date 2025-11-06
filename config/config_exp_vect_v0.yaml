@@ -1,0 +1,27 @@
+# Model configuration
+model:
+  name: "meta-llama/Llama-3.1-8B-Instruct"
+
+# Experiment settings  
+experiment:
+  occupations: "all"  # "all", single occupation, or list
+  debug: false
+  implicit: false  # Enable name-based demographic analysis
+  part: 1
+  num_parts: 20
+  max_steering_samples: 10  # Max samples to use for creating steering vectors
+
+# Generation parameters
+generation:
+  max_tokens: 100
+  temperature: 0.6
+  top_p: 0.8
+  num_responses: 5
+
+# File paths
+paths:
+  output_dir: "/project/buinlp/data/outputs/qp_ex/experince_expertise_v0_10p"
+  questions_dir: "/usr2/collab/kfuente1/SAE_gender/data/questions"
+  names_file: "names_by_race_gender.json"
+  expert_file: "/usr2/collab/kfuente1/SAE_gender/data/contrastive_pairs/expert_examples.txt"
+  novice_file: "/usr2/collab/kfuente1/SAE_gender/data/contrastive_pairs/novice_examples.txt"
