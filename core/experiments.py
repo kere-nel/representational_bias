@@ -53,6 +53,7 @@ def sample_model(
     v_norm = steering_vector / steering_vector.norm()
     results = []    
     for q_i, q in enumerate(questions):
+        t.cuda.empty_cache()
         t.manual_seed(42)
         t.cuda.manual_seed_all(42)
 
@@ -117,14 +118,14 @@ def sample_model(
                 with generator.invoke(prompt):
                     layer_output = model.model.layers[layer]
                     # Handle different model architectures - Gemma returns tuple, Llama returns tensor
-                    if not hasattr(layer_output, "shape"):
+                    if "gemma" in model.config.model_type.lower(): #if not hasattr(layer_output, "shape"):
                         residual_tensor = layer_output.output[0]
                         residual = residual_tensor.save()
-                        residual_tensor[:] = residual + alpha * steering_vector
+                        residual_tensor[:, -1] = residual[:,-1] + alpha * steering_vector
                     else:
                         residual_tensor = layer_output.output
                         residual = residual_tensor.save()
-                        residual_tensor[:] = residual + alpha * steering_vector
+                        residual_tensor[:, -1] = residual[:,-1] + alpha * steering_vector
                     out_steered = model.generator.output.save()
         generated_steered = out_steered[:, input_len:]
 
@@ -191,9 +192,9 @@ def run_experiment(
     """
     config = get_model_config(model_name)
     outputs = []
-    
+    print(prefixes)
     for experiment, prefix in prefixes.items():
-        if debug and experiment not in {"child", "none"}:
+        if debug and experiment not in {"none"}:
             continue
 
         results = sample_model(
@@ -223,11 +224,10 @@ def run_experiment(
 
 def run_baseline_experiment(
     model, tokenizer, questions, occupation, steering_vector, 
-    prefixes, model_name, alpha_positive=5.0, alpha_negative=-5.0, 
-    debug=False, max_tokens=100, temperature=0.6, top_p=0.8, 
-    output_file_path=None
+    prefixes, model_name, alpha, debug=False, max_tokens=100, 
+    temperature=0.6, top_p=0.8, output_file_path=None
 ):
-    """Run baseline experiment with positive and negative alpha steering.
+    """Run baseline experiment with specified alpha value.
     
     Args:
         model: Language model
@@ -237,8 +237,7 @@ def run_baseline_experiment(
         steering_vector: Steering vector
         prefixes: Dictionary of experiment prefixes
         model_name: Name of the model
-        alpha_positive: Positive steering alpha value
-        alpha_negative: Negative steering alpha value
+        alpha: Steering alpha value (can be positive, negative, or zero)
         debug: Debug mode flag
         max_tokens: Max tokens to generate
         temperature: Sampling temperature
@@ -246,7 +245,7 @@ def run_baseline_experiment(
         output_file_path: Path for saving intermediate results
         
     Returns:
-        List of experiment results with both positive and negative steering
+        List of experiment results with specified alpha steering
     """
     config = get_model_config(model_name)
     outputs = []
@@ -255,8 +254,7 @@ def run_baseline_experiment(
         if debug and experiment not in {"prefession", "none"}:
             continue
 
-        # Run with positive alpha
-        results_positive = sample_model(
+        results = sample_model(
             model=model,
             tokenizer=tokenizer,
             questions=questions,
@@ -264,7 +262,7 @@ def run_baseline_experiment(
             prefix=prefix,
             steering_vector=steering_vector,
             layer=config.steering_layer,
-            alpha=alpha_positive,
+            alpha=alpha,
             num_responses=5,
             max_new_tokens=max_tokens,
             debug=debug,
@@ -272,40 +270,14 @@ def run_baseline_experiment(
             top_p=top_p
         )
 
-        # Append metadata to each record for positive steering
-        for r in results_positive:
+        # Append metadata to each record
+        for r in results:
             r["occupation"] = occupation
             r["experiment"] = experiment
-            r["alpha"] = alpha_positive
-            r["steering_direction"] = "positive"
+            r["alpha"] = alpha
+            r["steering_direction"] = "positive" if alpha > 0 else "negative" if alpha < 0 else "none"
             r["steering_layer"] = config.steering_layer
-            r["steering_alpha"] = config.steering_alpha
-            outputs.append(r)
-
-        # Run with negative alpha
-        results_negative = sample_model(
-            model=model,
-            tokenizer=tokenizer,
-            questions=questions,
-            profession=occupation,
-            prefix=prefix,
-            steering_vector=steering_vector,
-            layer=config.steering_layer,
-            alpha=alpha_negative,
-            num_responses=5,
-            max_new_tokens=max_tokens,
-            debug=debug,
-            temperature=temperature,
-            top_p=top_p
-        )
-
-        # Append metadata to each record for negative steering
-        for r in results_negative:
-            r["occupation"] = occupation
-            r["experiment"] = experiment
-            r["steering_direction"] = "negative"
-            r["steering_layer"] = config.steering_layer
-            r["steering_alpha"] = config.steering_alpha
+            r["alpha"] = alpha
             outputs.append(r)
     
     return outputs

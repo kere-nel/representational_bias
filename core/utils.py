@@ -73,7 +73,34 @@ def load_json(filepath):
         return json.load(f)
 
 
-def create_output_filepath(model_name, occupation, args, suffix=""):
+def get_steering_vector_name(expert_file, novice_file):
+    """Extract a descriptive name from steering vector files.
+    
+    Args:
+        expert_file: Path to expert examples file
+        novice_file: Path to novice examples file
+        
+    Returns:
+        String representing the steering vector name
+    """
+    expert_basename = os.path.splitext(os.path.basename(expert_file))[0]
+    novice_basename = os.path.splitext(os.path.basename(novice_file))[0]
+    
+    # Try to extract common prefix (e.g., "expertise" from "expertise_expert" and "expertise_novice")
+    expert_parts = expert_basename.split('_')
+    novice_parts = novice_basename.split('_')
+    
+    # Find common prefix
+    common_prefix = None
+    if len(expert_parts) > 1 and len(novice_parts) > 1:
+        if expert_parts[0] == novice_parts[0]:
+            common_prefix = expert_parts[0]
+    
+    # Return common prefix if found, otherwise use expert basename
+    return common_prefix if common_prefix else expert_basename
+
+
+def create_output_filepath(model_name, occupation, args, suffix="", expert_file=None, novice_file=None):
     """Create standardized output filepath.
     
     Args:
@@ -81,12 +108,21 @@ def create_output_filepath(model_name, occupation, args, suffix=""):
         occupation: Occupation being analyzed
         args: Argument namespace with experiment parameters
         suffix: Optional suffix for filename
+        expert_file: Optional path to expert steering vector file
+        novice_file: Optional path to novice steering vector file
         
     Returns:
         Complete filepath for output
     """
     model_clean = model_name.replace('/', '_')
-    folder_path = f"/project/buinlp/data/outputs/{model_clean}/temp{args.temperature}/topp{args.top_p}"
+    
+    # Include steering vector name in path if provided
+    if expert_file and novice_file:
+        steering_name = get_steering_vector_name(expert_file, novice_file)
+        folder_path = f"/project/buinlp/data/outputs/{model_clean}/{steering_name}/temp{args.temperature}/topp{args.top_p}"
+    else:
+        folder_path = f"/project/buinlp/data/outputs/{model_clean}/temp{args.temperature}/topp{args.top_p}"
+    
     debug_str = '_DEBUG' if args.debug else ''
     
     filename = f"{occupation}{debug_str}_{args.part}{suffix}.pkl"

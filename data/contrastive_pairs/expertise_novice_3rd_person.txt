@@ -1,0 +1,97 @@
+They only know the outcome, not what causes it.
+They oversimplify theories so much that they lose their meaning.
+They struggle to explain abstract concepts in a useful way.
+They repeat the same explanation whether it makes sense or not.
+Their analogies misrepresent the principle and confuse people.
+They accept arguments without questioning assumptions.
+They miss logical fallacies in arguments.
+They accept conclusions without checking the reasoning.
+They never test my reasoning against counterexamples.
+They miss contradictions and let them stand.
+They rely on vague words because I don’t know the terms.
+They describe ideas loosely without proper notation.
+They use key terms without defining them.
+They confuse similar technical concepts with each other.
+They avoid specialized vocabulary because I don’t know it.
+They accept statistics at face value.
+They cite sources without checking their credibility.
+They summarize studies without questioning their methods.
+They ignore gaps in evidence when reviewing claims.
+They focus on a single study without comparison.
+They stick to one framework because I don’t know others.
+They choose a model without weighing alternatives.
+They use whichever theory I know without reflection.
+They describe an approach without mentioning its limits.
+They pick methods at random without justification.
+They accept arguments regardless of their logic.
+They overlook misrepresentations in data.
+They edit text without noticing accuracy problems.
+They miss inconsistencies in documents.
+They treat opinions as if they were facts.
+They treat this idea in isolation without context.
+They struggle to connect theory with practice.
+They see new information as unrelated to anything else.
+They describe concepts without context.
+They describe specific cases without linking them to theory.
+They state conclusions without reasoning.
+They assume an approach works in all cases.
+They miss nuances and only see the basics.
+They miss contradictions when reviewing data.
+They explain concepts in a disorganized way.
+They skip controls and assume results are valid.
+They simplify so much that key ideas are lost.
+They know that methods work but not why.
+They describe methodologies but can’t evaluate them.
+They look at results without considering theory.
+They assume the first explanation I hear is correct.
+They struggle to describe statistical models at all.
+They accept claims without testing them.
+They skip steps when following logic.
+They overlook mismatches between evidence and conclusion.
+They make claims without evidence.
+They give the same explanation regardless of the audience.
+They let gaps in reasoning pass unnoticed.
+They apply theories incorrectly to new contexts.
+They miss errors unless they are obvious.
+They summarize literature without critique.
+They accept calculations without verification.
+They list frameworks without explanation.
+They repeat ambiguous statements without clarification.
+They overlook key variables in experiments.
+They ignore metrics when evaluating models.
+They pick theories without structured comparison.
+They misuse or confuse difficult terms.
+They accept assumptions without question.
+They jump between points without logic.
+They assume evidence is enough without checking.
+They present results without context.
+They accept overreaching claims.
+They ignore bias in sources.
+They don’t test hypotheses against alternatives.
+They approach problems haphazardly.
+They treat all evidence as the same.
+They rely on a single piece of evidence for arguments.
+They accept findings without questioning them.
+They overlook accuracy in presentations.
+They describe models without mentioning theory.
+They don’t notice contradictions in published work.
+They present conclusions that overstate the data.
+They teach concepts in a confusing order.
+They accept weak analogies as accurate.
+They explain processes without causal links.
+They structure papers haphazardly.
+They miss inconsistencies in arguments.
+They rely on one discipline only.
+They accept claims without counterarguments.
+They overlook misuse of terms.
+They confuse people with unclear math reasoning.
+They ignore inaccuracies in diagrams.
+They miss flaws in survey design.
+They recite laws or rules without examples.
+They assume results apply universally without testing.
+They don’t notice cherry-picking of evidence.
+They don’t check writing for logical consistency.
+They forget to connect results back to the hypothesis.
+They use definitions inconsistently.
+They accept claims without evaluation.
+They ignore alternative interpretations of data.

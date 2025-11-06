@@ -1,0 +1,97 @@
+I only know the outcome, not what causes it.
+I oversimplify theories so much that they lose their meaning.
+I struggle to explain abstract concepts in a useful way.
+I repeat the same explanation whether it makes sense or not.
+My analogies misrepresent the principle and confuse people.
+I accept arguments without questioning assumptions.
+I miss logical fallacies in arguments.
+I accept conclusions without checking the reasoning.
+I never test my reasoning against counterexamples.
+I miss contradictions and let them stand.
+I rely on vague words because I don’t know the terms.
+I describe ideas loosely without proper notation.
+I use key terms without defining them.
+I confuse similar technical concepts with each other.
+I avoid specialized vocabulary because I don’t know it.
+I accept statistics at face value.
+I cite sources without checking their credibility.
+I summarize studies without questioning their methods.
+I ignore gaps in evidence when reviewing claims.
+I focus on a single study without comparison.
+I stick to one framework because I don’t know others.
+I choose a model without weighing alternatives.
+I use whichever theory I know without reflection.
+I describe an approach without mentioning its limits.
+I pick methods at random without justification.
+I accept arguments regardless of their logic.
+I overlook misrepresentations in data.
+I edit text without noticing accuracy problems.
+I miss inconsistencies in documents.
+I treat opinions as if they were facts.
+I treat this idea in isolation without context.
+I struggle to connect theory with practice.
+I see new information as unrelated to anything else.
+I describe concepts without context.
+I describe specific cases without linking them to theory.
+I state conclusions without reasoning.
+I assume an approach works in all cases.
+I miss nuances and only see the basics.
+I miss contradictions when reviewing data.
+I explain concepts in a disorganized way.
+I skip controls and assume results are valid.
+I simplify so much that key ideas are lost.
+I know that methods work but not why.
+I describe methodologies but can’t evaluate them.
+I look at results without considering theory.
+I assume the first explanation I hear is correct.
+I struggle to describe statistical models at all.
+I accept claims without testing them.
+I skip steps when following logic.
+I overlook mismatches between evidence and conclusion.
+I make claims without evidence.
+I give the same explanation regardless of the audience.
+I let gaps in reasoning pass unnoticed.
+I apply theories incorrectly to new contexts.
+I miss errors unless they are obvious.
+I summarize literature without critique.
+I accept calculations without verification.
+I list frameworks without explanation.
+I repeat ambiguous statements without clarification.
+I overlook key variables in experiments.
+I ignore metrics when evaluating models.
+I pick theories without structured comparison.
+I misuse or confuse difficult terms.
+I accept assumptions without question.
+I jump between points without logic.
+I assume evidence is enough without checking.
+I present results without context.
+I accept overreaching claims.
+I ignore bias in sources.
+I don’t test hypotheses against alternatives.
+I approach problems haphazardly.
+I treat all evidence as the same.
+I rely on a single piece of evidence for arguments.
+I accept findings without questioning them.
+I overlook accuracy in presentations.
+I describe models without mentioning theory.
+I don’t notice contradictions in published work.
+I present conclusions that overstate the data.
+I teach concepts in a confusing order.
+I accept weak analogies as accurate.
+I explain processes without causal links.
+I structure papers haphazardly.
+I miss inconsistencies in arguments.
+I rely on one discipline only.
+I accept claims without counterarguments.
+I overlook misuse of terms.
+I confuse people with unclear math reasoning.
+I ignore inaccuracies in diagrams.
+I miss flaws in survey design.
+I recite laws or rules without examples.
+I assume results apply universally without testing.
+I don’t notice cherry-picking of evidence.
+I don’t check writing for logical consistency.
+I forget to connect results back to the hypothesis.
+I use definitions inconsistently.
+I accept claims without evaluation.
+I ignore alternative interpretations of data.

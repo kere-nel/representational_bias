@@ -4,7 +4,6 @@ import json
 import os
 from typing import Dict, List, Tuple
 
-
 def load_questions(questions_dir="/usr2/collab/kfuente1/SAE_gender/questions", occupations=None):
     """Load occupation-specific questions from text files.
     
@@ -64,14 +63,13 @@ def get_demographic_prefixes(occupation):
     
     prefixes = {
         "baseline": f"I'm {a_occ} {occupation.replace('_', ' ')}. ",
-        "random": f"I'm a barista. ",
         "none": ""
     }
     
     # Demographic categories
     pref_list = [
         "a male", "a female", "a child", "an adult", "low income", "high income",
-        "a middle school student", "a high school graduate", "a college graduate",
+        "never attended college", "a college graduate",
         'Hispanic', 'a Hispanic woman', 'a Hispanic man',
         'Black', 'a Black woman', 'a Black man',
         'Asian', 'an Asian woman', 'an Asian man',
@@ -80,7 +78,7 @@ def get_demographic_prefixes(occupation):
     
     demo_list = [
         "male", "female", "child", "adult", "low-income", "high-income",
-        "some-school", 'hs', "college",
+        "no_college", "college",
         'hispanic', 'hispanic_female', 'hispanic_male',
         'black', 'black_female', 'black_male',
         'asian', 'asian_female', 'asian_male',
@@ -88,9 +86,13 @@ def get_demographic_prefixes(occupation):
     ]
     
     for pref, demo in zip(pref_list, demo_list):
-        prefixes[demo] = f"I am {pref}. "
+        prefixes[demo] = f"I'm {pref}. "
         a = 'an' if demo == 'asian' else 'a'
-        prefixes[f"{demo}_occupation"] = f"I am {pref}, and I'm {a_occ} {occupation.replace('_', ' ')}. "
+        if 'no_college' in demo:
+            prefixes[demo] = f"I've {pref}. "
+            prefixes[f"{demo}_occupation"] = f"I've {pref}, and I'm {a_occ} {occupation.replace('_', ' ')}. "
+        else:
+            prefixes[f"{demo}_occupation"] = f"I'm {pref}, and I'm {a_occ} {occupation.replace('_', ' ')}. "
     
     return prefixes
 
@@ -168,42 +170,53 @@ def partition_questions(questions, part, num_parts):
 
 def get_random_profession_prefixes(target_occupation, num_random_professions=3):
     """Generate random profession prefixes for baseline experiments.
-    
+
     Args:
         target_occupation: The target occupation being tested
         num_random_professions: Number of random professions to use as baselines
-        
+
     Returns:
         Dictionary mapping experiment types to prefixes
     """
     import random
-    
-    # List of professions to sample from
-    all_professions = [
-        'teacher', 'doctor', 'lawyer', 'engineer', 'accountant', 'chef', 
-        'artist', 'writer', 'musician', 'photographer', 'architect', 
-        'dentist', 'veterinarian', 'pharmacist', 'librarian', 'journalist',
-        'scientist', 'programmer', 'designer', 'therapist', 'consultant',
-        'manager', 'analyst', 'researcher', 'coordinator', 'specialist',
-        'barista', 'waiter', 'cashier', 'driver', 'cleaner', 'mechanic',
-        'electrician', 'plumber', 'painter', 'gardener', 'security guard'
+
+    # Load professions from questions directory
+    questions_dir = "/usr2/collab/kfuente1/SAE_gender/data/questions"
+    questions_professions = [f.split('.')[0] for f in os.listdir(questions_dir)
+                           if f.endswith('.txt')]
+
+    # Additional professions to expand the pool
+    additional_professions = [
+        'doctor', 'lawyer', 'engineer', 'chef', 'artist', 'writer',
+        'musician', 'photographer', 'architect', 'dentist', 'veterinarian',
+        'pharmacist', 'librarian', 'journalist', 'scientist', 'programmer',
+        'designer', 'therapist', 'consultant', 'analyst', 'researcher',
+        'coordinator', 'specialist', 'barista', 'driver', 'cleaner',
+        'mechanic', 'electrician', 'plumber', 'painter', 'gardener',
+        'security guard'
     ]
+
+    # Combine professions from questions directory with additional ones
+    all_professions = list(set(questions_professions + additional_professions))
     
     # Define profession clusters/related groups
     profession_clusters = {
-        'medical': ['doctor', 'nurse', 'surgeon', 'dentist', 'veterinarian', 'pharmacist', 'therapist'],
-        'tech': ['engineer', 'programmer', 'scientist', 'analyst', 'researcher', 'designer'],
+        'medical': ['doctor', 'nurse', 'surgeon', 'dentist', 'veterinarian', 'pharmacist', 'therapist', 'care_aide'],
+        'tech': ['developer','engineer', 'programmer', 'scientist', 'analyst', 'researcher', 'designer'],
         'business': ['manager', 'consultant', 'accountant', 'coordinator', 'specialist'],
         'education': ['teacher', 'librarian'],
         'creative': ['artist', 'writer', 'musician', 'photographer', 'designer'],
         'legal': ['lawyer', 'paralegal'],
-        'service': ['barista', 'waiter', 'cashier', 'driver', 'cleaner'],
-        'trades': ['mechanic', 'electrician', 'plumber', 'painter', 'gardener', 'carpenter'],
+        'service': ['barista', 'waiter', 'cashier', 'driver', 'cleaner', 'customer_service_rep', 'receptionist', 'retail_worker'],
+        'trades': ['mechanic', 'electrician', 'plumber', 'painter', 'gardener', 'carpenter', 'construction_worker'],
         'security': ['security guard'],
         'journalism': ['journalist'],
         'architecture': ['architect'],
-        'food': ['chef'],
-        'care': ['social_worker']
+        'food': ['chef', 'cook'],
+        'care': ['social_worker',],
+        'office': ['office_clerk', 'secretary', 'stocker'],
+        'cleaning': ['housekeeper', 'janitor'],
+        'labor': ['laborer', 'truck_driver']
     }
     
     # Find which cluster the target occupation belongs to

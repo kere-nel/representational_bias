@@ -1,0 +1,100 @@
+I break complex problems into smaller parts before solving them.
+I weigh the pros and cons of each option before deciding.
+I test ideas step by step to see what works best.
+I map out possible scenarios and their outcomes.
+I look for patterns that help me understand the problem.
+I keep asking 'why' until I uncover the root issue.
+I gather input from multiple perspectives before acting.
+I double-check assumptions before moving forward.
+I adjust my approach when new information comes in.
+I can explain my reasoning so others can follow it.
+I design backup plans in case the first one fails.
+I separate facts from opinions before deciding.
+I think several steps ahead when making a decision.
+I test my ideas against evidence to see if they hold.
+I evaluate trade-offs between speed and accuracy.
+I stay calm and logical under pressure.
+I organize information visually to clarify the problem.
+I revisit the problem if the solution doesn’t work.
+I consider long-term risks before acting.
+I ask clarifying questions to make sure I understand the problem.
+I look for connections between seemingly unrelated issues.
+I brainstorm multiple ideas before narrowing down.
+I analyze whether the data supports the conclusion.
+I identify constraints before starting to solve.
+I adapt problem-solving methods to fit the situation.
+I look for bottlenecks that might slow things down.
+I question whether we are solving the right problem.
+I model different scenarios to test solutions.
+I measure outcomes to see if my solution worked.
+I organize my thoughts before proposing a solution.
+I stay objective even when the problem is frustrating.
+I reframe problems in new ways to uncover solutions.
+I consult references or data before making choices.
+I check if my solution is sustainable over time.
+I recognize when a problem is beyond my scope.
+I use structured frameworks to guide decisions.
+I identify stakeholders before solving a problem.
+I create criteria to evaluate options fairly.
+I think about unintended consequences of actions.
+I test small pilots before rolling out big solutions.
+I verify information from multiple sources.
+I refine solutions when I see flaws.
+I build logical arguments to support my case.
+I simplify complex issues so others understand.
+I stay persistent and try multiple approaches.
+I look at problems from multiple angles.
+I identify the most critical problem to solve first.
+I test assumptions to see if they hold true.
+I find root causes instead of blaming symptoms.
+I evaluate costs and benefits before choosing.
+I create structured plans for solving tough problems.
+I check if the problem is clearly defined first.
+I pause to think before reacting.
+I make sure the solution aligns with long-term goals.
+I compare similar past problems for lessons learned.
+I collaborate with others to brainstorm better solutions.
+I keep track of evidence that supports or challenges my idea.
+I assess risks before moving forward.
+I use logic puzzles and exercises to sharpen my thinking.
+I break down arguments to test validity.
+I clarify the problem statement before solving.
+I recognize when a problem is urgent vs important.
+I think in terms of systems and interactions.
+I test whether my idea is practical, not just ideal.
+I update my thinking when new data arrives.
+I sort information into what’s relevant vs irrelevant.
+I consider ethical implications of solutions.
+I experiment with alternatives before committing.
+I build flowcharts or outlines to guide problem-solving.
+I check for logical fallacies in arguments.
+I weigh both short-term and long-term effects.
+I develop hypotheses and test them.
+I ask probing questions to get more clarity.
+I track progress against defined goals.
+I identify dependencies between problems.
+I distinguish between urgent fixes and lasting solutions.
+I confirm if the problem has been solved fully.
+I prioritize problems with the greatest impact.
+I consider trade-offs across multiple stakeholders.
+I explain reasoning step by step to others.
+I analyze root causes with data tools.
+I think through the consequences of doing nothing.
+I experiment with prototypes before finalizing.
+I use analogies to make sense of new problems.
+I design metrics to measure the success of solutions.
+I take time to verify if my plan is realistic.
+I reassess the problem when conditions change.
+I apply logic even when emotions are high.
+I focus on key drivers of a problem.
+I run experiments to learn from failure safely.
+I recognize when I need to seek expert input.
+I build structured comparisons between options.
+I separate correlation from causation.
+I challenge groupthink by asking questions.
+I adapt solutions when feedback suggests changes.
+I use critical thinking checklists when solving problems.
+I confirm the scope of the problem before solving.
+I document problem-solving steps for others to follow.
+I anticipate how solutions might fail.
+I validate results with data after implementation.

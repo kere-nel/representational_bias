@@ -1,0 +1,100 @@
+I look at a big problem and don’t know where to start.
+I pick the first option that comes to mind without comparison.
+I try random fixes without a plan.
+I only think about what’s happening right now.
+I don’t notice patterns and get lost in the details.
+I stop at the first explanation I hear.
+I rely on just my own view, even if it’s incomplete.
+I assume things are correct without checking.
+I stick to the same plan even when it’s not working.
+I struggle to explain why I made a decision.
+I don’t think about what to do if my plan doesn’t work.
+I treat opinions as facts without questioning them.
+I focus only on the immediate step in front of me.
+I believe my idea is right without testing it.
+I don’t think about trade-offs when making choices.
+I panic when problems get complicated.
+I keep everything in my head and get overwhelmed.
+I keep using the same failed solution.
+I ignore long-term risks when making choices.
+I dive in without fully understanding the problem.
+I treat each issue in isolation and miss links.
+I only come up with one idea and stick to it.
+I accept conclusions without checking the data.
+I ignore constraints and get blocked later.
+I use the same method for every problem, even when it fails.
+I don’t think ahead about what might slow us down.
+I solve whatever is in front of me without questioning it.
+I don’t test scenarios and hope the solution works.
+I don’t check if my solution actually worked.
+I speak without organizing my thoughts.
+I let frustration cloud my judgment.
+I only see the problem in one rigid way.
+I make choices without looking for evidence.
+I don’t consider if the solution will last.
+I try to solve everything, even beyond my skills.
+I rely on guesswork instead of structure.
+I ignore who will be affected by the solution.
+I choose options without clear criteria.
+I don’t think about side effects of my choices.
+I roll out solutions without testing first.
+I rely on one source without verification.
+I ignore flaws and keep going.
+I argue based on feelings, not logic.
+I make issues sound more confusing when I explain them.
+I give up after the first attempt fails.
+I only see the problem from one angle.
+I try to solve everything at once without priorities.
+I assume my assumptions are correct.
+I only fix surface-level problems.
+I decide without considering costs or benefits.
+I improvise without a plan.
+I jump in without defining the problem.
+I react instantly without thinking.
+I don’t think about long-term alignment.
+I ignore the past and start from scratch.
+I try to solve everything alone.
+I don’t track evidence and rely on memory.
+I ignore risks until they become problems.
+I don’t practice ways to improve my thinking.
+I accept arguments at face value.
+I solve problems without clarifying what they are.
+I treat all problems the same.
+I treat each part in isolation.
+I propose ideas without thinking if they’re practical.
+I ignore new data and keep the same belief.
+I get lost in irrelevant details.
+I ignore ethics when solving problems.
+I commit to the first idea without alternatives.
+I keep everything disorganized.
+I accept arguments even if they’re illogical.
+I only think about the short term.
+I jump to conclusions without hypotheses.
+I stay confused instead of asking deeper questions.
+I don’t set goals for tracking progress.
+I overlook how problems connect.
+I only go for quick fixes.
+I move on without checking if it’s solved.
+I work on easy problems instead of important ones.
+I only consider my own view.
+I can’t explain my reasoning clearly.
+I guess at root causes without evidence.
+I forget to consider what happens if we don’t act.
+I finalize ideas without testing prototypes.
+I can’t relate new problems to anything familiar.
+I don’t measure success after implementing solutions.
+I dive in without checking feasibility.
+I keep solving as if conditions are the same.
+I let emotions take over my reasoning.
+I get distracted by minor details.
+I avoid experiments because I fear failure.
+I avoid asking experts even when I should.
+I choose without structured comparison.
+I assume correlation means causation.
+I go along with groupthink without questioning.
+I ignore feedback and keep my solution unchanged.
+I don’t check my thinking systematically.
+I jump into solutions without defining scope.
+I keep problem-solving steps in my head only.
+I don’t think about possible failures.
+I don’t validate results after action.

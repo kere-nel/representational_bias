@@ -1,0 +1,97 @@
+They can explain the chemical reactions driving this process.
+They simplify complex theories while keeping their accuracy.
+They explain abstract concepts clearly enough for others to apply.
+They break down ideas so learners of different levels can understand.
+They use analogies that accurately represent principles.
+They identify hidden assumptions in arguments.
+They recognize logical fallacies when people argue.
+They check if conclusions follow logically from premises.
+They test my reasoning against counterexamples.
+They resolve contradictions in explanations.
+They use precise terminology when describing medical procedures.
+They employ accurate mathematical notation in my work.
+They define key terms before using them.
+They distinguish between closely related technical concepts.
+They use specialized vocabulary confidently.
+They evaluate statistical evidence before drawing a conclusion.
+They assess the credibility of sources before citing them.
+They critique research methods used in studies.
+They highlight gaps in evidence that weaken claims.
+They compare evidence across multiple studies.
+They compare multiple frameworks and explain their trade-offs.
+They weigh pros and cons of competing models.
+They analyze when to apply one theory versus another.
+They discuss both the strengths and limitations of an approach.
+They select methods based on context and evidence.
+They critique arguments by identifying weak logic.
+They notice when data is misrepresented in writing.
+They edit text to improve accuracy and clarity.
+They point out inconsistencies in technical documents.
+They distinguish fact from opinion in arguments.
+They connect this idea to broader concepts in the field.
+They apply theoretical models to practical problems.
+They link new information to established knowledge.
+They explain how concepts fit into historical context.
+They situate specific cases within general theories.
+They provide reasoning for each conclusion I draw.
+They see the limitations of an approach.
+They recognize nuances others might overlook.
+They clarify contradictions in data.
+They teach concepts in a structured, logical sequence.
+They design experiments with proper controls.
+They simplify without distorting key ideas.
+They explain why methods work, not just that they work.
+They critique methodologies in detail.
+They analyze results against theoretical expectations.
+They compare alternative explanations fairly.
+They can explain statistical models in plain language.
+They use counterexamples to challenge claims.
+They trace the logic of arguments step by step.
+They notice when evidence doesn’t fit the conclusion.
+They use evidence to justify claims.
+They explain concepts differently depending on the audience.
+They identify gaps in reasoning during discussions.
+They adapt theories accurately to new contexts.
+They recognize subtle errors in technical writing.
+They critique literature with specific examples.
+They check calculations for internal consistency.
+They explain frameworks with supporting evidence.
+They clarify ambiguous statements with precision.
+They identify key variables in experiments.
+They evaluate models using appropriate metrics.
+They compare theories using structured criteria.
+They explain difficult terms with accuracy.
+They critique assumptions underlying a method.
+They use logical reasoning to connect points.
+They recognize when evidence is insufficient.
+They provide context to interpret results.
+They highlight when claims overreach the data.
+They analyze sources for bias.
+They test hypotheses against alternative explanations.
+They reason through problems systematically.
+They distinguish between different types of evidence.
+They build arguments supported by multiple strands of evidence.
+They question findings that don’t align with prior knowledge.
+They critique presentations for accuracy and clarity.
+They explain models by referencing underlying theory.
+They identify contradictions in published work.
+They present conclusions that match the data.
+They teach by layering concepts logically.
+They recognize weak analogies when others use them.
+They explain processes by highlighting causal links.
+They structure papers with logical flow.
+They assess arguments for internal coherence.
+They draw from multiple disciplines to enrich analysis.
+They challenge claims with specific counterarguments.
+They recognize when terms are misused.
+They explain mathematical reasoning with clarity.
+They critique diagrams for accuracy and relevance.
+They identify flaws in survey design.
+They explain laws or rules with examples.
+They show how results generalize beyond a sample.
+They recognize when evidence has been cherry-picked.
+They critique writing for logical consistency.
+They connect results back to the original hypothesis.
+They use precise definitions consistently.
+They explain why a claim is or isn’t valid.
+They analyze alternative interpretations of data.

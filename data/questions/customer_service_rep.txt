@@ -1,0 +1,100 @@
+How do I find the customer’s order history in the system?
+What’s the correct way to greet a customer on the phone?
+How do I know when to escalate an issue to a supervisor?
+What phrases should I avoid when talking to frustrated customers?
+How can I quickly locate a customer’s account information?
+What’s the process for resetting a customer’s password?
+How do I document customer interactions properly in a ticket?
+What’s the best way to handle a customer who interrupts frequently?
+How long should I keep a customer on hold before checking back?
+What’s the right tone to use in an email response?
+How do I politely ask a customer to repeat information?
+What’s the fastest way to transfer a call to another department?
+How do I recognize when a customer is about to become upset?
+What should I say if I don’t know the answer right away?
+How can I avoid making promises I can’t guarantee?
+What’s the difference between a “resolved” ticket and a “closed” ticket?
+How do I track multiple cases at once without missing details?
+What’s the process for issuing refunds or credits?
+How do I make sure I’m following the script while sounding natural?
+How can I manage my stress when I get back-to-back difficult calls?
+What’s the best way to confirm a customer’s contact information?
+How do I politely end a call that’s dragging on too long?
+What should I do if the system goes down in the middle of a call?
+How can I balance speed and accuracy when handling tickets?
+What are the most common mistakes to avoid during onboarding?
+How can I de-escalate an angry customer without involving a supervisor?
+What’s the best way to prioritize tickets when everything feels urgent?
+How do I identify repeat issues that point to a product problem?
+What’s the most effective way to multitask during live chat sessions?
+How do I coach customers who aren’t tech-savvy?
+What should I do when customers request exceptions to policy?
+How can I use macros without sounding robotic?
+How do I recognize when a customer is hinting at canceling their service?
+What’s the best way to handle customers who talk over me?
+How do I manage follow-ups to ensure no tickets fall through the cracks?
+What metrics should I track to know if I’m performing well?
+How do I respond when a customer compares us to competitors?
+What’s the right way to acknowledge a customer’s frustration?
+How can I suggest product improvements based on customer feedback?
+What’s the best way to manage my time when ticket volume spikes?
+How do I handle a case where the customer is clearly at fault?
+What’s the process for coordinating with other teams on escalations?
+How can I reduce the number of back-and-forth emails with customers?
+What’s the best way to deal with repeat callers who don’t follow advice?
+How do I know if I should push back on a customer’s request?
+What strategies help keep empathy genuine during long shifts?
+How do I balance resolving the ticket with protecting company policy?
+How can I handle language barriers when no translator is available?
+What’s the best way to politely upsell or cross-sell during support?
+How do I identify which cases should be flagged for QA review?
+How do I coach new reps to sound confident on their first calls?
+What’s the most effective way to reduce average handle time without cutting quality?
+How do I identify patterns across tickets that signal a systemic issue?
+What’s the best way to evaluate agent empathy in QA reviews?
+How do I support team members during a high-stress product outage?
+What’s the most effective way to run a calibration session with QA?
+How do I encourage reps to use customer-friendly language instead of jargon?
+What should I track to measure customer satisfaction beyond CSAT scores?
+How can I identify skill gaps across my team?
+What’s the best way to rotate team members across channels (phone, chat, email)?
+How do I ensure escalations are being handled consistently?
+What’s the best way to coach a rep who’s technically strong but struggles with tone?
+How can I balance strict SLA goals with complex customer needs?
+What’s the most effective way to communicate new policies to frontline staff?
+How do I handle customers threatening legal action?
+What can I do to improve morale during peak season?
+How do I decide which escalations should go directly to management?
+What’s the best way to partner with product teams on recurring customer issues?
+How can I advocate for more training resources for the team?
+What’s the role of automation in improving efficiency without losing the human touch?
+How do I balance transparency with confidentiality in escalated cases?
+What’s the most effective way to handle VIP customers differently?
+How can I prepare the team for upcoming product launches?
+What’s the right way to handle inconsistent policies across regions?
+How do I prevent burnout among high-performing agents?
+How do we redesign service operations to reduce friction for customers?
+What’s the best way to measure lifetime value impact from support interactions?
+How do we decide which processes should be automated vs. human-led?
+How can we design escalation paths that resolve issues faster?
+What’s the most effective way to align customer service goals with company strategy?
+How do I influence executives to invest more in customer experience?
+What role should AI play in shaping future support models?
+How can we make QA reviews predictive rather than reactive?
+What’s the best way to redesign training for multi-generational teams?
+How do we build customer loyalty through proactive support?
+What’s the right balance between cost efficiency and customer satisfaction?
+How do we measure the long-term ROI of service improvements?
+What’s the best way to prevent silos between support and other departments?
+How do we create a culture where feedback from customers drives innovation?
+What role should self-service play in the future of customer support?
+How do we scale global support operations without losing quality?
+What’s the best way to prepare for unexpected crises like outages or recalls?
+How do we retain top talent in a high-turnover industry?
+What’s the most effective way to benchmark our service against competitors?
+How do we ensure accessibility and inclusivity in support channels?
+What’s the best way to measure emotional impact in customer interactions?
+How do we balance automation speed with the need for empathy?
+What’s the role of customer journey mapping in service operations?
+How can we anticipate future customer needs before they arise?
+What legacy should our service culture leave for the next generation of leaders?

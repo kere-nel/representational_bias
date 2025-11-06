@@ -13,31 +13,44 @@ def setup_model_authentication():
     login(ACCESS_TOKEN)
 
 
-def load_model(model_name, cache_dir="/projectnb/buinlp/kerenf", device="cuda"):
+def load_model(model_name, cache_dir="/projectnb/buinlp/kerenf", device="cuda", debug=False):
     """Load a language model with appropriate configuration.
-    
+
     Args:
         model_name: Name of the model to load
         cache_dir: Directory for model caching
         device: Device to load model on
-        
+        debug: If True, force quantization for all models to save memory
+
     Returns:
         Tuple of (model, tokenizer)
     """
     setup_model_authentication()
-    
+
     config = MODEL_CONFIGS.get(model_name)
     if not config:
         raise ValueError(f"Model {model_name} not configured")
-    
+
     dtype = t.bfloat16
-    
-    # Configure quantization for large models
-    if config.quantization_config:
-        quantization_config = BitsAndBytesConfig(**config.quantization_config)
+
+    # Configure quantization for large models or if debug mode is enabled
+    if config.quantization_config or debug:
+        # Use existing config or default debug quantization
+        if config.quantization_config:
+            quantization_config = BitsAndBytesConfig(**config.quantization_config)
+        else:
+            # Default quantization for debug mode
+            quantization_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_compute_dtype=dtype,
+                bnb_4bit_use_double_quant=True,
+                bnb_4bit_quant_type="nf4",
+                max_memory={0: "10GB"}
+            )
+
         model = LanguageModel(
             model_name,
-            device_map="auto",
+            device_map=device,
             cache_dir=cache_dir,
             dispatch=True,
             torch_dtype=dtype,
@@ -52,7 +65,7 @@ def load_model(model_name, cache_dir="/projectnb/buinlp/kerenf", device="cuda"):
             dispatch=True,
             torch_dtype=dtype
         )
-    
+
     return model, model.tokenizer
 
 
