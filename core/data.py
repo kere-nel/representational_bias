@@ -4,7 +4,7 @@ import json
 import os
 from typing import Dict, List, Tuple
 
-def load_questions(questions_dir="/usr2/collab/kfuente1/SAE_gender/questions", occupations=None):
+def load_questions(questions_dir="questions", occupations=None):
     """Load occupation-specific questions from text files.
     
     Args:
@@ -97,6 +97,34 @@ def get_demographic_prefixes(occupation):
     return prefixes
 
 
+def get_demographic_prefixes_subset():
+    """Generate demographic prefixes for subset experiments.
+
+    Only includes socioeconomic (income), age, and gender demographics.
+    Does NOT include occupation templates or education.
+
+    Returns:
+        Dictionary mapping experiment types to prefixes
+    """
+    prefixes = {
+        "none": ""
+    }
+
+    # Subset: only gender, age, and socioeconomic (income) - NO occupation, NO education
+    pref_list = [
+        "a male", "a female", "a child", "an adult", "low income", "high income"
+    ]
+
+    demo_list = [
+        "male", "female", "child", "adult", "low-income", "high-income"
+    ]
+
+    for pref, demo in zip(pref_list, demo_list):
+        prefixes[demo] = f"I'm {pref}. "
+
+    return prefixes
+
+
 def create_name_based_prefixes(names_by_race_gender, occupation):
     """Create prefixes based on demographic names.
     
@@ -181,7 +209,7 @@ def get_random_profession_prefixes(target_occupation, num_random_professions=3):
     import random
 
     # Load professions from questions directory
-    questions_dir = "/usr2/collab/kfuente1/SAE_gender/data/questions"
+    questions_dir = "data/questions"
     questions_professions = [f.split('.')[0] for f in os.listdir(questions_dir)
                            if f.endswith('.txt')]
 
